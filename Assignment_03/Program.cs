@@ -77,24 +77,31 @@ class Program
         #endregion
 
         #region Q10
-        string title = "Refactoring";
-        switch (title)
-        {
+        //string title = "Refactoring";
+        //switch (title)
+        //{
 
-            case "Clean code":
-                Console.WriteLine("Great choice!");
-                break;
-            case "Refactoring":
-                Console.WriteLine("Nice Pick!");
-                break;
+        //    case "Clean code":
+        //        Console.WriteLine("Great choice!");
+        //        break;
+        //    case "Refactoring":
+        //        Console.WriteLine("Nice Pick!");
+        //        break;
 
-            default:
-                Console.WriteLine("Never heard of it.");
-                break; 
+        //    default:
+        //        Console.WriteLine("Never heard of it.");
+        //        break; 
+        //}
         #endregion
-        }
+
+        #region Q11
+        int Pages = 464;
+        string sizelable = (Pages > 300) ? "Long Book" : "Short Book";
+        Console.WriteLine(sizelable);
+        #endregion
+
+    }
 
 
 
     }
-}
