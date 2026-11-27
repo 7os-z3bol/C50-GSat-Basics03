@@ -100,9 +100,9 @@ class Program
         //string sizelable = (Pages > 300) ? "Long Book" : "Short Book";
         //Console.WriteLine(sizelable);
         #endregion
+        string[] Books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
         #region Q12, Q13
-        // string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
         //for(int i =0; i < Books.Length; i++)
         //{
         //    Console.WriteLine((i +1) + ". " + Books[i]);
@@ -153,18 +153,30 @@ class Program
 
         #region Q17
 
-        string[] Books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+        //for (int i = 0; i < Books.Length; i++)
+        //{
+        //    if (Books[i] == "The Pragmatic Programmer")
+        //    {
+        //        continue;
+        //    }
 
-        for (int i = 0; i < Books.Length; i++)
+        //    Console.WriteLine(Books[i]);
+        //}
+
+        #endregion
+
+        #region Q18
+        static void PrintFirstBook(string[] Books)
         {
-            if (Books[i] == "The Pragmatic Programmer")
+            if (Books.Length == 0)
             {
-                continue;
+                return;
             }
 
-            Console.WriteLine(Books[i]);
+            Console.WriteLine(Books[0]);
         }
 
+        PrintFirstBook(Books);
         #endregion
     }
 }
