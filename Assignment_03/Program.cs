@@ -19,16 +19,24 @@ class Program
         #endregion
 
         #region Q3
-        StringBuilder sb = new StringBuilder();
-        sb.Append("Book List");
-        Console.WriteLine(sb);
-        sb.Append("_ Updated");
-        Console.WriteLine(sb);
+        //StringBuilder sb = new StringBuilder();
+        //sb.Append("Book List");
+        //Console.WriteLine(sb);
+        //sb.Append("_ Updated");
+        //Console.WriteLine(sb);
 
         #region q4
-        sb.Replace("Book List", "Library");
-        Console.WriteLine(sb);
+        //sb.Replace("Book List", "Library");
+        //Console.WriteLine(sb);
         #endregion
+        #endregion
+
+        #region Q5
+        string title = "Clean Code";
+        int pages = 464;
+        
+        string result = "Book: " + title + ", Pages: " + pages;
+        Console.WriteLine(result);
         #endregion
 
 
