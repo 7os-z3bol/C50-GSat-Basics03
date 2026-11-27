@@ -48,16 +48,31 @@ class Program
 
         #region Q8
 
+        //int Pages = 464;
+        //if (pages > 300)
+        //{
+        //    Console.WriteLine("Long Book");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Short Book");
+        //}
+
+
+        #endregion
+
+        #region Q9
         int Pages = 464;
-        if (pages > 300)
+        bool isAvaiable = true;
+
+        if (Pages > 300 && isAvaiable == true)
         {
-            Console.WriteLine("Long Book");
+            Console.WriteLine("You can borrow this book");
         }
         else
         {
-            Console.WriteLine("Short Book");
+            Console.WriteLine(" Not Avilable");
         }
-
 
         #endregion
 
