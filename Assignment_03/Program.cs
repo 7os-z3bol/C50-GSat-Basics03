@@ -95,9 +95,18 @@ class Program
         #endregion
 
         #region Q11
-        int Pages = 464;
-        string sizelable = (Pages > 300) ? "Long Book" : "Short Book";
-        Console.WriteLine(sizelable);
+        //int Pages = 464;
+        //string sizelable = (Pages > 300) ? "Long Book" : "Short Book";
+        //Console.WriteLine(sizelable);
+        #endregion
+
+        #region Q12
+        string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+        for(int i =0; i < Books.Length; i++)
+        {
+            Console.WriteLine((i +1) + ". " + Books[i]);
+            
+        }
         #endregion
 
     }
