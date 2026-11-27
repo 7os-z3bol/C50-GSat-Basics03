@@ -31,13 +31,17 @@ class Program
         #endregion
         #endregion
 
-        #region Q5
+        #region Q5, Q6
         string title = "Clean Code";
         int pages = 464;
-        
+
         string result = "Book: " + title + ", Pages: " + pages;
         Console.WriteLine(result);
+
+        // Question 6
+        //Console.WriteLine($"Book: {title}, Pages: {pages}");
         #endregion
+
 
 
     }
