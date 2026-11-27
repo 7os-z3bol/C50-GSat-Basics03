@@ -35,12 +35,18 @@ class Program
         string title = "Clean Code";
         int pages = 464;
 
-        string result = "Book: " + title + ", Pages: " + pages;
-        Console.WriteLine(result);
+        //string result = "Book: " + title + ", Pages: " + pages;
+        //Console.WriteLine(result);
 
         // Question 6
         //Console.WriteLine($"Book: {title}, Pages: {pages}");
+
+        // Question 7
+        string result = string.Format("Book : {0} , Pages : {1} ,", title, pages);
+        
         #endregion
+
+
 
 
 
