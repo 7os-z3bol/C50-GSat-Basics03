@@ -1,4 +1,6 @@
-﻿class Program
+﻿using System.Text;
+
+class Program
 {
     static void Main(string[] args)
     {
@@ -11,9 +13,17 @@
         #endregion
 
         #region Q2
-        string x = "clean code";
-        string y = "clean code";
-        Console.WriteLine(x.Equals(y)); 
+        //string x = "clean code";
+        //string y = "clean code";
+        //Console.WriteLine(x.Equals(y)); 
+        #endregion
+
+        #region Q3
+        StringBuilder sb = new StringBuilder();
+        sb.Append("clean code");
+        Console.WriteLine(sb);
+        sb.Append("_ Updated");
+        Console.WriteLine(sb);
         #endregion
     }
 }
