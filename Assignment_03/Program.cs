@@ -101,25 +101,35 @@ class Program
         #endregion
 
         #region Q12, Q13
-        string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+        //string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
         //for(int i =0; i < Books.Length; i++)
         //{
         //    Console.WriteLine((i +1) + ". " + Books[i]);
-            
+
         //}
 
 
         //Q13
+        //int i = 0;
+        //while (i < Books.Length)
+        //{
+        //    Console.WriteLine((i + 1) + "." + Books[i]);
+        //    i++;
+        //}
+
+        #endregion
+
+        #region Q14
         int i = 0;
-        while (i < Books.Length)
+        do
         {
-            Console.WriteLine((i + 1) + "." + Books[i]);
+            Console.WriteLine("Checking book...");
             i++;
         }
+        while (i < 3);
+
+
         #endregion
 
     }
-
-
-
-    }
+   }
