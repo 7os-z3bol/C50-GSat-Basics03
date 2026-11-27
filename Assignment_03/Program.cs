@@ -102,7 +102,7 @@ class Program
         #endregion
 
         #region Q12, Q13
-         string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+        // string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
         //for(int i =0; i < Books.Length; i++)
         //{
         //    Console.WriteLine((i +1) + ". " + Books[i]);
@@ -140,16 +140,31 @@ class Program
         #endregion
 
         #region Q16
-        for (int i = 0; i < Books.Length; i++)
-        {
-            if (Books[i] == "Refactoring")
-            {
-                break;
-            }
+        //for (int i = 0; i < Books.Length; i++)
+        //{
+        //    if (Books[i] == "Refactoring")
+        //    {
+        //        break;
+        //    }
 
-           
-        }
+
+        //}
         #endregion
 
+        #region Q17
+
+        string[] Books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+        for (int i = 0; i < Books.Length; i++)
+        {
+            if (Books[i] == "The Pragmatic Programmer")
+            {
+                continue;
+            }
+
+            Console.WriteLine(Books[i]);
+        }
+
+        #endregion
     }
-   }
+}
