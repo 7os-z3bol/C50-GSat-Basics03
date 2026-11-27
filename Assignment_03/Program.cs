@@ -32,8 +32,8 @@ class Program
         #endregion
 
         #region Q5, Q6, Q7
-        string title = "Clean Code";
-        int pages = 464;
+        //string title = "Clean Code";
+        //int pages = 464;
 
         //string result = "Book: " + title + ", Pages: " + pages;
         //Console.WriteLine(result);
@@ -62,19 +62,38 @@ class Program
         #endregion
 
         #region Q9
-        int Pages = 464;
-        bool isAvaiable = true;
+        //int Pages = 464;
+        //bool isAvaiable = true;
 
-        if (Pages > 300 && isAvaiable == true)
-        {
-            Console.WriteLine("You can borrow this book");
-        }
-        else
-        {
-            Console.WriteLine(" Not Avilable");
-        }
+        //if (Pages > 300 && isAvaiable == true)
+        //{
+        //    Console.WriteLine("You can borrow this book");
+        //}
+        //else
+        //{
+        //    Console.WriteLine(" Not Avilable");
+        //}
 
         #endregion
+
+        #region Q10
+        string title = "Refactoring";
+        switch (title)
+        {
+
+            case "Clean code":
+                Console.WriteLine("Great choice!");
+                break;
+            case "Refactoring":
+                Console.WriteLine("Nice Pick!");
+                break;
+
+            default:
+                Console.WriteLine("Never heard of it.");
+                break; 
+        #endregion
+        }
+
 
 
     }
