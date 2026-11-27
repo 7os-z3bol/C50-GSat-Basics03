@@ -31,7 +31,7 @@ class Program
         #endregion
         #endregion
 
-        #region Q5, Q6
+        #region Q5, Q6, Q7
         string title = "Clean Code";
         int pages = 464;
 
@@ -42,12 +42,24 @@ class Program
         //Console.WriteLine($"Book: {title}, Pages: {pages}");
 
         // Question 7
-        string result = string.Format("Book : {0} , Pages : {1} ,", title, pages);
-        
+        //string result = string.Format("Book : {0} , Pages : {1} ,", title, pages);
+
         #endregion
 
+        #region Q8
+
+        int Pages = 464;
+        if (pages > 300)
+        {
+            Console.WriteLine("Long Book");
+        }
+        else
+        {
+            Console.WriteLine("Short Book");
+        }
 
 
+        #endregion
 
 
     }
