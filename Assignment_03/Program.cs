@@ -100,12 +100,21 @@ class Program
         //Console.WriteLine(sizelable);
         #endregion
 
-        #region Q12
+        #region Q12, Q13
         string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
-        for(int i =0; i < Books.Length; i++)
-        {
-            Console.WriteLine((i +1) + ". " + Books[i]);
+        //for(int i =0; i < Books.Length; i++)
+        //{
+        //    Console.WriteLine((i +1) + ". " + Books[i]);
             
+        //}
+
+
+        //Q13
+        int i = 0;
+        while (i < Books.Length)
+        {
+            Console.WriteLine((i + 1) + "." + Books[i]);
+            i++;
         }
         #endregion
 
