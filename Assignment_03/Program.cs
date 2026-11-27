@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using static System.Reflection.Metadata.BlobBuilder;
 
 class Program
 {
@@ -101,7 +102,7 @@ class Program
         #endregion
 
         #region Q12, Q13
-        string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
+         string[] Books = { "Clean Code", "Refactoring", "The Pragmatic Programmer" };
         //for(int i =0; i < Books.Length; i++)
         //{
         //    Console.WriteLine((i +1) + ". " + Books[i]);
@@ -132,10 +133,22 @@ class Program
         #endregion
 
         #region Q15
-        foreach (string num in Books)
+        //foreach (string num in Books)
+        //{
+        //    Console.WriteLine(num);
+        //} 
+        #endregion
+
+        #region Q16
+        for (int i = 0; i < Books.Length; i++)
         {
-            Console.WriteLine(num);
-        } 
+            if (Books[i] == "Refactoring")
+            {
+                break;
+            }
+
+           
+        }
         #endregion
 
     }
