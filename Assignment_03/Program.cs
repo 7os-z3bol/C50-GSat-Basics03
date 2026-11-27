@@ -20,10 +20,17 @@ class Program
 
         #region Q3
         StringBuilder sb = new StringBuilder();
-        sb.Append("clean code");
+        sb.Append("Book List");
         Console.WriteLine(sb);
         sb.Append("_ Updated");
         Console.WriteLine(sb);
+
+        #region q4
+        sb.Replace("Book List", "Library");
+        Console.WriteLine(sb);
         #endregion
+        #endregion
+
+
     }
 }
